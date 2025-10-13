@@ -13,7 +13,7 @@ Erzeugen Sie dann, ausgehend vom Branch `project`, einen neuen Branch mit dem Na
 
 #### Testplan
 
-Erstellen Sie einen Testplan für Ihre Erweiterung. Nutzen Sie das vorgegebene [Template](https://unibas-marcelluethi.github.io/software-engineering-gyminf/project/templates/testplan.html) (hier als [Markdown](https://raw.githubusercontent.com/unibas-marcelluethi/software-engineering/main/docs/project/templates/testplan.md)).
+Erstellen Sie einen Testplan für Ihre Erweiterung. Nutzen Sie das vorgegebene [Markdown Template](https://raw.githubusercontent.com/PatrickSchniderUnibas/software-engineering/main/docs/project/templates/testplan.md).
 Der Testplan sollte so geschrieben sein, dass dieser für ein externes Testteam nutzbar ist.
 Falls Sie die Modultests als automatisierte Unit Tests implementiert haben, können Sie einfach die Namen der Unittest in die Tabelle einfügen. Ansonsten müssen Sie diese detailliert beschreiben.
 
