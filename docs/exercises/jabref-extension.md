@@ -52,7 +52,7 @@ Lesen Sie auch die [High-Level Dokumentation](https://devdocs.jabref.org/archite
 
 ## Aufgabe 1: Arbeiten mit dem Eventbus
 
-In dieser Aufgabe nutzen Sie den EventBus. Erstellen Sie eine neue Klasse ```BrooksHandler``` in einem neuen Package ```org.jabref.gui.sillyextensions```.
+In dieser Aufgabe nutzen Sie den EventBus. Erstellen Sie eine neue Klasse ```BrooksHandler``` in einem neuen Package ```org.jabref.gui.sillyextensions```. <!--- jabgui/src/main/java/org/jabref/gui/sillyextensions/BrooksHandler.java --->
 Diese Klasse soll auf Events vom Typ ```EntriesAddedEvent``` und ```EntryChangedEvent``` reagieren. Wenn immer ein solches Event von Jabref generiert wird, soll
 die Meldung "Entries Added" beziehungsweise "Entries Changed" sowie der Titel des entsprechenden Eintrags auf der Konsole (mit ```System.out.println```) ausgegeben werden.
 
@@ -118,6 +118,7 @@ Die Abgabe der Übung erfolgt durch push vom entsprechenden Branch:
 ```
 git push origin uebung5
 ```
-und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/go/file/2100921/download)) an. 
+und entsprechenden Pull Request. Geben Sie die Übung, wie bisher, den Ihnen zugeordneten Reviewer ab. (Reminder: siehe [ Liste](https://adam.unibas.ch/go/file/2100921/download)). 
 Wenn Sie zu zweit gearbeitet haben, fügen Sie bitte ihre(n) Partner(in) als *Assignee* hinzu
 (eventuell müssen Sie in den Einstellungen noch Zugriff erteilen).
+<!---Satz kurz umgebaut, da sie wie bisher abgeben sollen, die Liste ist incomplete/nicht up to date --->

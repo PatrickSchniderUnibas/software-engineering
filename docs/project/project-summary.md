@@ -25,5 +25,6 @@ Sie denken sich als Gruppe ein Projekt aus und müssen dies dann strukturiert re
 
 
 Jedem Projekt ist ein Betreuer zugeteilt. Dieser wird Ihnen bei Fragen zur Seite stehen. Die Zuteilung finden Sie zu gegebenem Zeitpunkt auf [Adam](https://adam.unibas.ch/goto_adam_crs_1738211.html).
+<!---GIO: Todo @all: das muss noch angepasst werden hier --->
 
 
