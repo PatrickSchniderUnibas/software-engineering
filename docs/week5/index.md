@@ -40,5 +40,5 @@ Die Studierenden
 ## Hausaufgaben
 
 * Bearbeiten Sie die [praktische Übung](../exercises/jabref-extension) und reichen Sie diese wie angegeben per Pull Request ein. 
-* Überarbeiten Sie Ihr [Pflichtenheft](../project/requirements) und reichen Sie die verbesserte Version bis spätestens 21. Oktober ein.
+* Überarbeiten Sie Ihr [Pflichtenheft](../project/requirements) und reichen Sie die verbesserte Version bis spätestens 21. Oktober ein. <!---GIO: Datum im Projektplan ist 28.10.25 soll ich das hier auch so ändern?--->
 * Beginnen Sie einen Prototypen Ihrer Erweiterung zu implementieren und machen Sie sich Gedanken zum Design. Orientieren Sie sich an dieser Anleitung [Design Doc](../project/technical-doc).
