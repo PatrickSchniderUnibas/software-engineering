@@ -36,7 +36,7 @@ welche Klassen bereits in JabRef vorhanden sind und welche Sie neu hinzufügen.
 
 ### Beispiel
 
-Ein Beispieldokument von einem früheren Projekt finden Sie auf [Adam](https://adam.unibas.ch/goto_adam_file_1915042_download.html).
+Ein Beispieldokument von einem früheren Projekt finden Sie auf [Adam](https://adam.unibas.ch/go/file/2123391/download). 
 
 #### Abgabe:
 
