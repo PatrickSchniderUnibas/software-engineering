@@ -1,6 +1,6 @@
 ---
 layout: default
-title : Woche 6
+title : Pflichtenheft
 ---
 # Pflichtenheft
 #####  (Nach Lichter & Ludwig, Software Engineering: Grundlagen, Menschen, Prozesse, Techniken)

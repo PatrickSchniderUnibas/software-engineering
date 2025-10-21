@@ -44,15 +44,15 @@ git checkout uebung5
 #### Lesen der Jabref Dokumentation
 
 Wir werden in dieser Übung einige zentrale Mechanismen von JabRef kennenlernen. Diese Sind auf dem JabRef Wiki dokumentiert.
-Verschaffen Sie sich bitte einen Überblick über die wichtigsten Konzepte, die in den [Code-HowTos](https://jabref.readthedocs.io/en/latest/getting-into-the-code/code-howtos/) von JabRef besprochen werden.
+Verschaffen Sie sich bitte einen Überblick über die wichtigsten Konzepte, die in den [Code-HowTos](https://devdocs.jabref.org/code-howtos/) von JabRef besprochen werden.
 Kommen Sie später in den Übungen darauf zurück, wenn Sie an einem bestimmten Konzept arbeiten.
-Lesen Sie auch die [High-Level Dokumentation](https://jabref.readthedocs.io/en/latest/getting-into-the-code/high-level-documentation/).
+Lesen Sie auch die [High-Level Dokumentation](https://devdocs.jabref.org/architecture-and-components.html). Beachten Sie dabei, dass die erwähnten Pakete in verschiedenen Ordnern wie z.B. ```jabgui``` oder ```jablib``` sein können.
 
 
 
 ## Aufgabe 1: Arbeiten mit dem Eventbus
 
-In dieser Aufgabe nutzen Sie den EventBus. Erstellen Sie eine neue Klasse ```BrooksHandler``` in einem neuen Package ```org.jabref.gui.sillyextensions```.
+In dieser Aufgabe nutzen Sie den EventBus. Erstellen Sie eine neue Klasse ```BrooksHandler``` in einem neuen Package ```org.jabref.gui.sillyextensions```. <!--- jabgui/src/main/java/org/jabref/gui/sillyextensions/BrooksHandler.java --->
 Diese Klasse soll auf Events vom Typ ```EntriesAddedEvent``` und ```EntryChangedEvent``` reagieren. Wenn immer ein solches Event von Jabref generiert wird, soll
 die Meldung "Entries Added" beziehungsweise "Entries Changed" sowie der Titel des entsprechenden Eintrags auf der Konsole (mit ```System.out.println```) ausgegeben werden.
 
@@ -65,14 +65,16 @@ Committen Sie Ihre Änderungen.
 
 ## Aufgabe 2: Arbeiten mit dem Logger
 
-In einem realen Projekt wollen Sie nicht Meldungen mit ```System.out.println``` auf die Konsole ausgeben. Stattdessen verwendet man ein logging System, um Meldungen auszugeben.
+In einem realen Projekt wollen Sie nicht Meldungen mit ```System.out.println``` auf die Konsole ausgeben. Stattdessen verwendet man ein Logging-System, um Meldungen auszugeben.
 Ändern Sie die Ausgabe so ab, dass der Logger verwendet wird. Die Loggingnachrichten sollen mit dem Level ```info``` gelogged werden.
 
 
-Schauen Sie sich danach die Datei ```tinylog.properties``` an, die Sie im Verzeichnis ```src\main\resources\``` finden. In dieser Datei können Sie den Logging Level verändern.
+Schauen Sie sich danach die Datei ```tinylog.properties``` an, die Sie im Verzeichnis ```jabgui\src\main\resources\``` finden. In dieser Datei können Sie den Logging Level verändern.
 Setzen Sie den Logging Level ```Info``` auf ```Debug```. Schauen Sie sich die Meldungen an, die auf die Konsole ausgegeben werden, wenn Sie JabRef starten. Was beobachten Sie?
 
-*Hinweis:* In der Dokumentation steht, dass der Logger mittels ```LogFactory.getLog(<ClassName>.class);``` instantiiert werden kann. Es sollte jedoch ```LoggerFactory.getLogger(<ClassName>.class)``` sein. 
+<!--
+*Hinweis:* In der Dokumentation steht, dass der Logger mittels ```LogFactory.getLog(<ClassName>.class);``` instantiiert werden kann. Es sollte jedoch ```LoggerFactory.getLogger(<ClassName>.class)``` sein.
+-->
 
 Committen Sie Ihre Änderungen.
 
@@ -116,6 +118,7 @@ Die Abgabe der Übung erfolgt durch push vom entsprechenden Branch:
 ```
 git push origin uebung5
 ```
-und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/goto_adam_file_1659074_download.html)) an. 
+und entsprechenden Pull Request. Geben Sie die Übung, wie bisher, den Ihnen zugeordneten Reviewer ab. (Reminder: siehe [ Liste](https://adam.unibas.ch/go/file/2100921/download)). 
 Wenn Sie zu zweit gearbeitet haben, fügen Sie bitte ihre(n) Partner(in) als *Assignee* hinzu
 (eventuell müssen Sie in den Einstellungen noch Zugriff erteilen).
+<!---Satz kurz umgebaut, da sie wie bisher abgeben sollen, die Liste ist incomplete/nicht up to date --->

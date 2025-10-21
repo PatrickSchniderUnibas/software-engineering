@@ -1,6 +1,6 @@
 ---
 layout: default
-title : Woche 6
+title : Lastenheft
 ---
 # Lastenheft 
 #####  (Vorlage nach Balzert, Lehrbuch der Softwaretechnik (3 Auflage, Kapitel 20.3))

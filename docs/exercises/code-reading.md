@@ -7,7 +7,7 @@ title : Woche 3
 ## Administratives
 
 Eine Einführung in Gradle gibt es in der Übungsstunde vom 30. September. 
-* Abgabe via Pull Request bis spätestens 6. Oktober, 23.59.
+* Abgabe via Pull Request bis spätestens 5. Oktober, 23:59.
 
 
 ## Einführung
@@ -70,14 +70,17 @@ Beschreiben Sie auch, was der Task ```generateSource``` macht.
 
 Fügen Sie die Bibliothek *swenglib* (in der Version 2.0) zum Projekt hinzu, indem
 Sie zusätzlich folgende Dependency angeben:
+(*jabgui/build.gradle.kts*)
 
 ```
 dependencies {
-    implementation 'ch.unibas.informatik.sweng:swenglib:2.0'
+    ...
+    implementation("ch.unibas.informatik.sweng:swenglib:2.0")
 }
 ```
 
 Damit das Projekt gefunden wird, müssen Sie die von gradle durchsuchten Repositories um folgenden Eintrag ergänzen:
+(*build-logic/src/main/kotlin/org.jabref.gradle.base.repositories.gradle.kts*)
 ```
 repositories {
     ...
@@ -89,9 +92,9 @@ repositories {
 ```
 *Achtung: Beachten Sie unbedingt folgende Hinweise!*
 
-* Wenn Sie eine Änderung an der Datei `build.gradle` machen, müssen Sie die Gradle Konfiguration in IntelliJ zuerst neu laden. Dies machen Sie indem Sie im Gradle-Fenster *Reload all Gradle Projects* wählen. Dies ist der Button mit den zwei entgegengesetzten Pfeilen. 
+* Wenn Sie eine Änderung an der Datei `build.gradle.kts` machen, müssen Sie die Gradle Konfiguration in IntelliJ zuerst neu laden. Dies machen Sie indem Sie im Gradle-Fenster *Reload all Gradle Projects* wählen. Dies ist der Button mit den zwei entgegengesetzten Pfeilen. 
 * JabRef nutzt das Java Modulsystem. Im Gegensatz zu herkömmlichen Java Projekten, bei denen es reicht, die Bibliothek in Gradle als dependency zu deklarieren, müssen Sie *swenglib* bei JabRef
-zusätzlich als *Required Dependency* deklarieren. Dies machen Sie, indem Sie in der Datei ```module-info.java``` den Eintrag ```requires swenglib;``` hinzufügen.
+zusätzlich als *Required Dependency* deklarieren. Dies machen Sie, indem Sie in der Datei ```jabgui/src/main/java/module-info.java``` den Eintrag ```requires swenglib;``` hinzufügen.
 
 
 Wenn das Hinzufügen funktioniert hat sollten Sie in der main Methode (wie finden Sie die?) folgenden Code zu JabRef hinzufügen können und das Projekt sollte entsprechend kompilieren.
@@ -107,15 +110,22 @@ Source Code der Bibliothek kommen.
 #### 1.3 Maven Central
 
 In der Java-Welt werden viele frei verfügbare Bibliotheken auf [Maven Central](https://search.maven.org) publiziert. 
-Suchen Sie da nach dem Paket `opencsv`. Auf der Seite wird Ihnen auch angezeigt, wie Sie das Paket in Gradle als Abhängigkeit hinzufügen 
-können. Finden Sie heraus wo und wie? Fügen Sie auch dieses Paket hinzu. Sie müssen auch hier wieder die Datei `module-info.java` anpassen, und bei `requires` den Namen des top-level Pakets von `opencsv` angeben (also `com.opencsv`). 
+Suchen Sie da nach dem Paket `opencsv`. Auf der Seite wird Ihnen auch angezeigt, wie Sie das Paket in Gradle als Abhängigkeit hinzufügen können. Finden Sie heraus wo und wie? Fügen Sie auch dieses Paket hinzu. 
+
+*Hinweis 1:* JabRef verwendet Kotlin. 
+
+*Hinweis 2:* Gradle versucht normalerweise, jedes JAR zu dekonstruieren und die Metadaten (z. B. Modulnamen) durch seine Transformation neu aufzubauen, daher kann es bei Bibliotheken, die sich bereits als automatische Module deklarieren, zu Problemen kommen. Indem man die Abhängigkeit jedoch in einer Platform-Deklaration einbettet, versucht Gradle nicht mehr, das JAR neu zu interpretieren, sondern übernimmt direkt die eigene Versionsausrichtung und Metadaten der Bibliothek.
+
+*Hinweis 3:* implementation(platform(group:artifact:version))
 
 #### 1.4 Hinzufügen eines Plugins
-Fügen Sie das Plugin [Gradle-License-Report](https://github.com/jk1/Gradle-License-Report) durch anpassen der Datei ```build.gradle```zum Projekt hinzu. Die entsprechenden Instruktionen finden Sie auf
+Fügen Sie das Plugin [Gradle-License-Report](https://github.com/jk1/Gradle-License-Report) durch anpassen der Datei ```build.gradle.kts```zum Projekt hinzu. Die entsprechenden Instruktionen finden Sie auf
 der Github Seite vom [Gradle-License-Report](https://github.com/jk1/Gradle-License-Report).
 
+*Hinweis:* JabRef verwendet Kotlin. Lesen Sie die Webseite vorsichtig durch und überprüfen Sie Codeblöcke, die Sie kopieren (korrekte Version?).
+
 Testen Sie das Plugin und schauen Sie sich den generierten Report an.
-Fügen Sie einen Kommentar in der Datei ```build.gradle``` hinzu. Dieser soll ganz kurz (in Ihren eigenen Worten) dokumentieren, was das Plugin macht und wozu wir es brauchen.
+Fügen Sie einen Kommentar in der Datei ```build.gradle.kts``` hinzu. Dieser soll ganz kurz (in Ihren eigenen Worten) dokumentieren, was das Plugin macht und wozu wir es brauchen.
 
 ## 2. Code lesen
 
@@ -123,13 +133,13 @@ In diesem Teil der Übung geht es darum, dass sie sich einen Grobüberblick übe
 
 #### 2.1 Dokumentieren von Packages
 
-Lesen Sie den [Auszug aus dem Buch](https://adam.unibas.ch/goto_adam_file_1885896_download.html) Java By Comparison zum Thema API Doc.
+Lesen Sie den [Auszug aus dem Buch](https://adam.unibas.ch/go/file/2114141/download) Java By Comparison zum Thema API Doc.
 
 
 Dokumentieren Sie dann die zwei folgenden Packages.
 
-* org.jabref.cli
-* org.jabref.model.database
+* jabgui.src.main.java.org.jabref.cli
+* jablib.src.main.java.org.jabref.model.database
 
 Sie k&ouml;nnen diese mittels Javadoc dokumentieren, indem sie in jedes Verzeichnis eine Datei
 ```package-info.java``` erstellen, die wie folgt aussieht
@@ -149,7 +159,7 @@ Sie finden, wenn Sie einen Rechtsklick auf ein Symbol (also Klasse, Methode, Var
 #### 2.2 Dokumentieren einer Klasse
 
 Schauen Sie sich die Klasse
-```org.jabref.logic.protectedterms.ProtectedTermsLoader``` an. Dokumentieren Sie die Klasse selbst und die Methoden `addNewProtectedTermsList` und `getInternalLists` mit Javadoc. Folgen Sie dabei auch hier den im Buch beschriebenen Prinzipien.
+```jablib.src.main.java.org.jabref.logic.protectedterms.ProtectedTermsLoader.java``` an. Dokumentieren Sie die Klasse selbst und die Methoden `addNewProtectedTermsList` und `getInternalLists` mit Javadoc. Folgen Sie dabei auch hier den im Buch beschriebenen Prinzipien.
 
 
 Orientieren Sie sich auch hier an den Leitlinien im Buch [Java by Comparison](https://adam.unibas.ch/goto_adam_file_1885896_download.html). 
@@ -162,6 +172,6 @@ Die Abgabe der Übung erfolgt durch push vom Übungs-Branch:
 ```
 git push origin uebung3
 ```
-und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/goto_adam_file_1879922_download.html)) an. 
+und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/go/file/2100921/download)) an. 
 (Details dazu finden sie in [&Uuml;bungsblatt 2](./first-changes)).
 

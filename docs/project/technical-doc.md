@@ -23,16 +23,17 @@ Die Funktionalität soll in dieser Phase nicht vollständig implementiert werden
 
 #### Technische Dokumentation erstellen
 
-Erstellen Sie dann die Technische Dokumentation. Nutzen Sie dazu dieses  [Template](./templates/technical-doc)
+Erstellen Sie dann die Technische Dokumentation. Nutzen Sie dazu dieses  [Template](./templates/technical-doc). Achtung, die Technische Dokumentation muss als .md File hochgeladen werden.
+<!---GIO: so dass sie unbedingt ein .md file hochladen statt nur pdfs ---> 
 
-* [Link zum template im Markdown Format](https://raw.githubusercontent.com/unibas-marcelluethi/software-engineering/main/docs/project/templates/technical-doc.md)
+* [Link zum template im Markdown Format](https://raw.githubusercontent.com/PatrickSchniderUnibas/software-engineering/main/docs/project/templates/technical-doc.md)
 
 Neben den im Template vorgegebenen Aspekten, muss das Dokument mindestens die folgenden Anforderungen erfüllen:
 
-* Es soll ein UML Klassendiagramm enthalten, welches die Beziehungen zwischen den relevanten Klassen Ihrer Erweiterung und JabRef zeigt. Kennzeichnen Sie klar, 
+* Es soll ein **UML Klassendiagramm enthalten**, welches die Beziehungen zwischen den relevanten Klassen Ihrer Erweiterung und JabRef zeigt. Kennzeichnen Sie klar, 
 welche Klassen bereits in JabRef vorhanden sind und welche Sie neu hinzufügen. 
-* Erstellen Sie dann ein Sequenzdiagramm, ein Aktivitätsdiagramm und ein Zustandsdiagramm, für jeweils einen Teilaspekt ihres Systems. 
-* Schreiben Sie einen Abschnitt zur Logik des Systems. Hier sollen die wichtigsten logischen Einschränkungen, die nicht direkt aus den obigen Diagrammen hervorgehen. 
+* Erstellen Sie dann ein **Sequenzdiagramm**, ein **Aktivitätsdiagramm** und ein **Zustandsdiagramm**, für jeweils einen Teilaspekt ihres Systems. 
+* Schreiben Sie einen **Abschnitt zur Logik des Systems**. Hier sollen die wichtigsten logischen Einschränkungen, die nicht direkt aus den obigen Diagrammen hervorgehen. 
 
 ### Beispiel
 

@@ -92,7 +92,7 @@ Schlüssel (Citationkey) der richtige Eintrag zurückgegeben wird. (Der Citation
 
 
 Die Tests können Sie via der IDE einzeln ausführen, indem Sie auf den grünen Pfeil neben dem Test klicken.
-Mit Gradle können Sie Ihre neuen Tests einzeln ausführen, indem Sie ```gradlew test --tests org.jabref.model.database.MyDatabaseTest``` aufrufen.
+Mit Gradle können Sie Ihre neuen Tests einzeln ausführen, indem Sie ```gradlew :jablib:test --tests org.jabref.model.database.MyDatabaseTest``` aufrufen.
 
 Wenn Sie alle Tests erfolgreich geschrieben haben, fügen Sie die neue Datei (mit *git add*) dem Repository hinzu und committen Ihre Änderungen.
 
