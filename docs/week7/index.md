@@ -5,19 +5,27 @@ title : Woche 7
 
 # Woche 7: Design patterns
 
-## Übersicht
+In dieser Woche beschäftigen wir uns nochmals mit den Themen Modularität und vor allem Design von Software. Wir schauen uns Design Patterns an, die uns Prinzipien vorgeben wie wir ein Design erstellen können, das einfach zu warten und zu erweitern ist. Zudem schneiden wir kurz zwei weitere Programmierparadigmen an.
 
-In dieser Woche beschäftigen wir uns nochmals mit den Themen Modularität und vor allem Design von Software. Wir schauen uns Design Patterns an, die uns Prinzipien vorgeben wie wir ein Design erstellen können, das einfach zu warten und zu erweitern ist.
+## Lernziele 
+
+Die Studierenden
+
+- wissen, was ein Design Pattern ist und können für die besprochenen Designpatterns erklären, welches Problem sie lösen und wie die Lösungsstrategie aussieht.
 
 
 ## Übungsstunde:
-In der Übungsstunde können Sie an Ihrem Designdokument arbeiten. Zudem werden wir mit Ihnen den Stand Ihres Projekts besprechen.
+In der Übungsstunde können Sie an Ihrem Designdokument arbeiten. Zudem werden wir mit Ihnen das Pflichtenheft und den Stand Ihres Projekts besprechen.
 
 
 ## Vorlesungsslides
 
-* Modularität und Design (II)
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1910297_download.html) <!--auf adam noch nicht gefunden -->
+* SOLID-Prinzipien und Design Patterns
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2131466/download)
+
+
+## Zusätzliche Materialien und Ressourcen
+* Katalog / Beschreibung von Design Patterns: [Design Patterns](https://refactoring.guru/design-patterns/catalog)
     
 
 ## Hausaufgaben

@@ -7,16 +7,17 @@ title : Woche 6
 
 In dieser Woche beschäftigen wir uns nochmals mit den Themen Modularität und 
 Design von Software. Wir schauen uns Objektorientierte Programmierung an, die SOLID Prinzipien, 
-die uns Prinzipien vorgeben wie wir ein Design erstellen können, das einfach zu warten und zu erweitern ist. Danach schauen wir uns einige spezifische Design Patterns an.
+die uns Prinzipien vorgeben wie wir ein Design erstellen können, das einfach zu warten und zu erweitern ist.
 
 ## Lernziele 
 
 Die Studierenden
 
 - kennen die Methoden und Prinzipien der objektorientierten Programmierung.
+- kennen grundlegende Designheuristiken.
 - kennen die SOLID Prinzipien und können erkennen, wann diese verletzt werden.
 - können argumentieren, weshalb jedes der SOLID Prinzipien wichtig ist.
-- wissen, was ein Design Pattern ist und können für die besprochenen Designpatterns erklären, welches Problem sie lösen und wie die Lösungsstrategie aussieht.
+
 
 
 ## Übungsstunde:
@@ -29,8 +30,8 @@ Beginnen Sie mit der Erstellung eines Design Dokuments. Folgend Sie dabei den fo
 
 ## Vorlesungsslides
 
-* Modularität und Design (II)
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1910297_download.html) <!-- @Patrick: Bitte adden auf ADAM -->
+* SOLID-Prinzipien und Design Patterns
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2131466/download)
 
 ## Zusätzliche Materialien und Ressourcen
 * Katalog / Beschreibung von Design Patterns: [Design Patterns](https://refactoring.guru/design-patterns/catalog)
