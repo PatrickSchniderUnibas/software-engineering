@@ -7,18 +7,18 @@ title : Woche 8
 
 ## Übersicht
 
-In dieser Woche besprechen wir, wie wir die Spezifikationen validieren, und besprechen 
-verschiedene Methode, wie wir Programme verifizieren können. Dabei legen wir den Fokus auf das Testen ud besprechen das Testen im Grossen.
+In dieser Woche besprechen wir, wie wir die Spezifikationen validieren, und schauen uns 
+verschiedene Methoden an, wie wir Programme verifizieren können. Dabei legen wir den Fokus auf das Testen und besprechen das Testen im Grossen.
 
 ## Lernziele 
 
 Die Studierenden
 
 - können erklären, weshalb Software immer verifiziert werden muss.
-- können verschiedene Methoden zur Verifikation aufzählen.
+- kennen verschiedene Methoden zur Verifikation von Software.
 - kennen die verschiedenen Arten von Tests (also Unittest, Regressionstest, Integrationstests, etc. ) und wissen, wie diese eingesetzt werden.
 - kennen die Ziele und Limitierungen von Softwaretests und können die Auswirkungen dieser Limitierungen einschätzen.
-- kennen einige Vorteile und Nachteile von Bottom Up respektive Top Down integrations im Bezug auf Testen
+- kennen einige Vorteile und Nachteile von Bottom-Up- respektive Top-Down-Integrations im Bezug auf Testen
 
 
 
@@ -32,7 +32,7 @@ Im praktischen Teil der Veranstaltung werden wir mit Ihnen Ihre Designdokumente 
 
 
 * Verifikation und Testen
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1915392_download.html) 
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2136209/download) 
 
 
 ## Hausaufgaben
