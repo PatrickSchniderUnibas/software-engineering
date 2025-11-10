@@ -11,7 +11,7 @@ title : Woche 9
 In dieser Woche diskutieren wir konkrete Strategien, um Testfälle zu finden. Teststrategien, die wir als individuelle 
 Entwickler*innen anwenden können. Dabei lassen wir uns von der Idee der
 Überdeckung leiten und diskutieren verschiedene Überdeckungskriterien. 
-Wir lernen auch konkrete Methoden kennen, mit denen wir Testfälle finden können und schauen uns kurz Property-based Testing und Fuzzing an.
+Wir lernen auch konkrete Methoden kennen, mit denen wir Testfälle finden können und schauen uns kurz Property-based Testing an.
 
 
 ## Lernziele 
@@ -32,7 +32,7 @@ herleiten.
 
 
 * Verifikation und Testen
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1926291_download.html) 
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2145846/download) 
 
 
 
