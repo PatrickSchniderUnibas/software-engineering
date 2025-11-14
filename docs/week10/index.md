@@ -32,6 +32,9 @@ Die Studierenden
 - [Offizielle Seite für Alloy](http://alloytools.org/)
 - [Download Alloy](http://alloytools.org/download.html)
 - [Formal software design with Alloy](https://haslab.github.io/formal-software-design/index.html)
+- [Beispiel Marriage](./../week11/alloy-solutions/Marriage.als)
+- [Beispiel Linked Lists](./../week11/alloy-solutions/LinkedLists.als)
+- [Beispiel File System](./../week11/alloy-solutions/fileSystem.als)
 
 
 ## Übungen
