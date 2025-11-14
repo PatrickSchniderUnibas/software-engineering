@@ -34,6 +34,8 @@ Die Studierenden
 - [Alloy Dokumentation](https://alloy.readthedocs.io/en/latest/)
 - [Formal software design with Alloy](https://haslab.github.io/formal-software-design/index.html)
 - [Alloy 6 - It's all about time](https://www.hillelwayne.com/post/alloy6/)
+- [Beispiel Ping Peng Pong](./alloy-solutions/PingPengPong.als)
+- [Barber paradox](./alloy-solutions/MovingBalls.als)
 
 ## Übungen
 
