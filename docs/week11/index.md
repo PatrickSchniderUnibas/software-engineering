@@ -26,7 +26,7 @@ Die Studierenden
 
 
 * Modellieren mit Alloy
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1932030_download.html) 
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2149474/download) 
 
 ## Ressourcen
 

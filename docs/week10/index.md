@@ -8,7 +8,7 @@ title : Woche 10
 ## Übersicht
 
 In dieser Woche werden wir uns mit dem Modellierungswerkzeug Alloy beschäftigen. Alloy ist eine formale Spezifikationssprache, mit der wir Designs analysieren und früh im Entwicklungsprozess Fehler finden können. 
-Das Ziel dieser Einführung ist nicht, sie zu Expert:innen in der Formalen Modellierung zu machen, sondern Ihnen zu zeige, wie solche Werkzeuge aussehen und wie sie eingesetzt werden können.
+Das Ziel dieser Einführung ist nicht, sie zu Expert:innen in der Formalen Modellierung zu machen, sondern Ihnen zu zeigen, wie solche Werkzeuge aussehen und wie sie eingesetzt werden können.
 
 ## Lernziele 
 
@@ -25,7 +25,7 @@ Die Studierenden
 
 
 * Modellieren mit Alloy
-    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/goto_adam_file_1932030_download.html) 
+    * Slides (Auf Adam): [pdf](https://adam.unibas.ch/go/file/2149474/download) 
 
 ## Ressourcen
 
