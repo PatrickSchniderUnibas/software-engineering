@@ -35,7 +35,7 @@ Die Studierenden
 - [Formal software design with Alloy](https://haslab.github.io/formal-software-design/index.html)
 - [Alloy 6 - It's all about time](https://www.hillelwayne.com/post/alloy6/)
 - [Beispiel Ping Peng Pong](./alloy-solutions/PingPengPong.als)
-- [Barber paradox](./alloy-solutions/MovingBalls.als)
+- [Beispiel Moving Balls](./alloy-solutions/MovingBalls.als)
 
 ## Übungen
 
@@ -47,11 +47,12 @@ Versuchen Sie die Aufgaben im [Alloy Übungsblatt](../exercises/alloy) zu lösen
 
 
 ### Lösungen zu den Übungen
-
+<!---
 - [Students](./alloy-solutions/students.als)
 - [Barber paradox](./alloy-solutions/barber.als)
 - [Doris Day (My own baby)](./alloy-solutions/baby.als)
 - [Traffic lights](./alloy-solutions/traffic.als)
+--->
 
 
 ## Übungsstunde:
