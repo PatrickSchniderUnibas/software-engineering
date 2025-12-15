@@ -47,12 +47,12 @@ Versuchen Sie die Aufgaben im [Alloy Übungsblatt](../exercises/alloy) zu lösen
 
 
 ### Lösungen zu den Übungen
-<!---
-- [Students](./alloy-solutions/students.als)
-- [Barber paradox](./alloy-solutions/barber.als)
-- [Doris Day (My own baby)](./alloy-solutions/baby.als)
-- [Traffic lights](./alloy-solutions/traffic.als)
---->
+
+- [Students](./alloy-solutions/exercise-uni.als)
+- [Barber paradox](./alloy-solutions/exercise-barber.als)
+- [Doris Day (My own baby)](./alloy-solutions/exercise-baby.als)
+- [Traffic lights](./alloy-solutions/exercise-ampel.als)
+
 
 
 ## Übungsstunde:
