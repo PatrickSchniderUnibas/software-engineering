@@ -14,17 +14,17 @@ Sie denken sich als Gruppe ein Projekt aus und müssen dies dann strukturiert re
 | Aufgabe |  Erste Abgabe | Besprechung | Finale Version | Bemerkung |
 |---------|--------|---------------------|---------|-----------|
 | JabRef kennenlernen | - | - | - | Eigene Experimente / Übungen 1 - 4 |
-| [Projektvorschag einreichen](./projektvorschlag.md)  | 3. Oktober | 7. Oktober | - | Projektbeginn ist der 7. Oktober |
-| [Gruppenrepository einrichten](./group-repository) | 7. Oktober | --   | 7. Oktober | | 
-| [Pflichtenheft/Projektplan erstellen](./requirements) | 10. Oktober | 14. Oktober  | 28. Oktober |  | 
-| [Design und Prototyp erstellen](./technical-doc) | 31. Oktober | 4. November | 11. November | |
-| [Testplan erstellen](./testplan) | 14. November | 18. November | 25. November| |
-| [Abschlusspräsentation](./presentation) | 2. Dezember |  --  | 2. Dezember | Präsentationen vor Ort | 
-| [Finale Abgabe ganzes Projekt](./submission) | 16. Dezember | --  | 16. Dezember |
+| [Projektvorschag einreichen](./projektvorschlag.md)  | 2. Oktober | 6. Oktober | - | Projektbeginn ist der 6. Oktober |
+| [Gruppenrepository einrichten](./group-repository) | 6. Oktober | --   | 6. Oktober | | 
+| [Pflichtenheft/Projektplan erstellen](./requirements) | 9. Oktober | 13. Oktober  | 27. Oktober |  | 
+| [Design und Prototyp erstellen](./technical-doc) | 30. Oktober | 3. November | 10. November | |
+| [Testplan erstellen](./testplan) | 13. November | 17. November | 24. November| |
+| [Abschlusspräsentation](./presentation) | 1. Dezember |  --  | 1. Dezember | Präsentationen vor Ort | 
+| [Finale Abgabe ganzes Projekt](./submission) | 15. Dezember | --  | 15. Dezember |
 
 
 
-Jedem Projekt ist ein Betreuer zugeteilt. Dieser wird Ihnen bei Fragen zur Seite stehen. Die Zuteilung finden Sie zu gegebenem Zeitpunkt auf [Adam](https://adam.unibas.ch/goto_adam_crs_1738211.html).
-<!---GIO: Todo @all: das muss noch angepasst werden hier --->
+Jedem Projekt ist ein Betreuer zugeteilt. Dieser wird Ihnen bei Fragen zur Seite stehen. Die Zuteilung finden Sie zu gegebenem Zeitpunkt auf [Adam](https://adam.unibas.ch/go/crs/2206923).
+
 
 

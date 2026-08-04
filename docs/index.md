@@ -18,7 +18,7 @@ Departement Mathematik und [Informatik](http://informatik.unibas.ch/), Universit
 
 * [Giovanni Utzeri](mailto:giovanni.utzeri@unibas.ch)
 * [Mark Starzynski](mailto:mark.starzynski@unibas.ch)
-* [Fabian Dudler](mailto:fabian.dudler@unibas.ch)
+* [Istref Uka](mailto:i.uka@stud.unibas.ch)
 
 
 ## Kursbeschreibung
@@ -32,7 +32,7 @@ Aktuelle Methoden und Tools werden im Rahmen eines vorlesungsbegleitenden Projek
 Diese Seite entspricht der offiziellen Vorlesungsseite. Sie finden hier alle Informationen zur Vorlesung, sowie die Vorlesungsunterlagen.
 Diese Seite soll auch zeigen, wie man mittels Github Pages einfach technische Dokumentationen erstellen kann, die sich leicht pflegen lassen. Die Seite wird direkt aus dem [Github Repository](https://github.com/PatrickSchniderUnibas/software-engineering) generiert. Wenn Sie Fehler finden, können Sie also gerne einen Pull Request machen. 
 
-Alles Material, welches nicht öffentlich zugänglich sein soll, wird auf unserem [Adam workspace](https://adam.unibas.ch/ilias.php?baseClass=ilrepositorygui&ref_id=1738211) zur Verfügung gestellt.
+Alles Material, welches nicht öffentlich zugänglich sein soll, wird auf unserem [Adam workspace](https://adam.unibas.ch/go/crs/2206923) zur Verfügung gestellt.
 
 
 

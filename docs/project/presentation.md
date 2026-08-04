@@ -23,9 +23,9 @@ Die Präsentation sollte mindestens folgende Punkte ansprechen:
     * Eine Erkenntnis aus diesem Projekt, die Sie in weitere Projekte mitnehmen werden.
 
 #### Zeitplan
-Die Präsentationen finden am 2. Dezember statt. 
+Die Präsentationen finden am 1. Dezember statt. 
 
-Die Reihenfolge der Präsentationen finden Sie zu gegebenem Zeitpunkt in diesem Zeitplan auf [Adam](https://adam.unibas.ch/go/file/2151758/download) 
+Die Reihenfolge der Präsentationen finden Sie zu gegebenem Zeitpunkt in diesem Zeitplan auf [Adam](https://adam.unibas.ch/go/crs/2206923) 
 
 #### Abgabe der Präsentationsfolien
 
