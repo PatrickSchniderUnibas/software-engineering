@@ -40,8 +40,8 @@ Dokumentieren.
     * [Slides](https://adam.unibas.ch/go/fold/2293842) (Auf Adam)
 
 * Beispiele Pflichtenheft
-    * Beispiel 1: ([Pflichtenheft (auf Adam)](https://adam.unibas.ch/go/file/2278238/download)).
-    * Beispiel 2: ([Pflichtenheft (auf Adam)](https://adam.unibas.ch/go/file/2278239/download)).
+    * Beispiel 1: [Pflichtenheft (auf Adam)](https://adam.unibas.ch/go/file/2278238/download).
+    * Beispiel 2: [Pflichtenheft (auf Adam)](https://adam.unibas.ch/go/file/2278239/download).
 
 ## Hausaufgaben
 
