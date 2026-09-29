@@ -133,7 +133,7 @@ In diesem Teil der Übung geht es darum, dass sie sich einen Grobüberblick übe
 
 #### 2.1 Dokumentieren von Packages
 
-Lesen Sie den [Auszug aus dem Buch](https://adam.unibas.ch/go/file/2114141/download) Java By Comparison zum Thema API Doc.
+Lesen Sie den [Auszug aus dem Buch](https://adam.unibas.ch/go/file/2278237/download) Java By Comparison zum Thema API Doc.
 
 
 Dokumentieren Sie dann die zwei folgenden Packages.
