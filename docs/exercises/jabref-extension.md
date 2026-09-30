@@ -46,7 +46,7 @@ git checkout uebung5
 Wir werden in dieser Übung einige zentrale Mechanismen von JabRef kennenlernen. Diese Sind auf dem JabRef Wiki dokumentiert.
 Verschaffen Sie sich bitte einen Überblick über die wichtigsten Konzepte, die in den [Code-HowTos](https://devdocs.jabref.org/code-howtos/) von JabRef besprochen werden.
 Kommen Sie später in den Übungen darauf zurück, wenn Sie an einem bestimmten Konzept arbeiten.
-Lesen Sie auch die [High-Level Dokumentation](https://devdocs.jabref.org/architecture-and-components.html). Beachten Sie dabei, dass die erwähnten Pakete in verschiedenen Ordnern wie z.B. ```jabgui``` oder ```jablib``` sein können.
+Lesen Sie auch die [High-Level Dokumentation](https://devdocs.jabref.org/architecture-and-components.html). Beachten Sie dabei, dass die erwähnten Pakete in verschiedenen Ordnern sein können.
 
 
 
@@ -69,7 +69,7 @@ In einem realen Projekt wollen Sie nicht Meldungen mit ```System.out.println``` 
 Ändern Sie die Ausgabe so ab, dass der Logger verwendet wird. Die Loggingnachrichten sollen mit dem Level ```info``` gelogged werden.
 
 
-Schauen Sie sich danach die Datei ```tinylog.properties``` an, die Sie im Verzeichnis ```jabgui\src\main\resources\``` finden. In dieser Datei können Sie den Logging Level verändern.
+Schauen Sie sich danach die Datei ```tinylog.properties``` an, die Sie im Verzeichnis ```src\main\resources\``` finden. In dieser Datei können Sie den Logging Level verändern.
 Setzen Sie den Logging Level ```Info``` auf ```Debug```. Schauen Sie sich die Meldungen an, die auf die Konsole ausgegeben werden, wenn Sie JabRef starten. Was beobachten Sie?
 
 <!--
