@@ -55,4 +55,4 @@ Arbeiten Sie folgende Materialien durch, um sich mit der UML vertraut zu machen.
 
 * Vertiefen Sie selbstständig die Theorie zum Thema UML, indem sie die oben verlinkten Artikel lesen. Es wird erwartet, dass sie die Diagramme bis nächste Woche lesen können. 
 * Bearbeiten Sie die [praktische Übung](../exercises/unit-tests-und-ci) und reichen Sie diese wie angegeben per Pull Request ein. 
-* Reichen Sie Ihr [Pflichtenheft](../project/requirements) bis spätestens 10. Oktober ein. 
+* Reichen Sie Ihr [Pflichtenheft](../project/requirements) bis spätestens 9. Oktober ein. 

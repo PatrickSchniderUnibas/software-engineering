@@ -5,7 +5,7 @@ title : Woche 4
 
 # Übungsblatt 4: Unit Tests und Continuous Integration
 
-* Dieses Übungsblatt muss bis spätestens 13. Oktober, 23.59 bearbeitet und via Pull Request abgegeben werden.
+* Dieses Übungsblatt muss bis spätestens 12. Oktober, 23.59 bearbeitet und via Pull Request abgegeben werden.
 * Wir empfehlen, dieses Übungsblatt in Zweiergruppen zu bearbeiten (siehe Abgabeinstruktionen am Ende dieses Dokuments)
 
 
@@ -129,7 +129,7 @@ Die Abgabe der Übung erfolgt durch push vom Übungs-Branch:
 ```
 git push origin uebung4
 ```
-und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/goto_adam_file_1879922_download.html)) an. 
+und entsprechenden Pull Request. Geben Sie hier den Ihnen zugeordneten Reviewer (siehe [diese Liste](https://adam.unibas.ch/go/file/2312410/download)) an. 
 (Details dazu finden sie in [&Uuml;bungsblatt 2](./first-changes))
 
 
