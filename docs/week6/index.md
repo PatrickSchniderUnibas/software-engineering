@@ -39,4 +39,4 @@ Beginnen Sie mit der Erstellung eines Design Dokuments. Folgend Sie dabei den fo
 ## Hausaufgaben
 
 * Beginnen Sie zum Design. Orientieren Sie sich an dieser Anleitung [Design Doc](../project/technical-doc).
-* Erstellen Sie die finale Version des Pflichtenhefts und reichen Sie diese bis spätestens 28. Oktober ein. 
+* Erstellen Sie die finale Version des Pflichtenhefts und reichen Sie diese bis spätestens 27. Oktober ein. 
