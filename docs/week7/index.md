@@ -30,5 +30,5 @@ In der Übungsstunde können Sie an Ihrem Designdokument arbeiten. Zudem werden 
 
 ## Hausaufgaben
 
-* Reichen Sie Ihr Designdokument (Technische Dokumentation) bis spätestens am 31. Oktober 
+* Reichen Sie Ihr Designdokument (Technische Dokumentation) bis spätestens am 30. Oktober 
 per Pull Request ein.
