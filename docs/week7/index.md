@@ -22,6 +22,7 @@ In der Übungsstunde können Sie an Ihrem Designdokument arbeiten. Zudem werden 
 
 * SOLID-Prinzipien und Design Patterns
     * [Slides](https://adam.unibas.ch/go/fold/2293842) (Auf Adam)
+    * [Notebook Design Patterns](https://jupyterhub-edu.scicore.unibas.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FPatrickSchniderUnibas%2Fsweng_notebooks&urlpath=tree%2Fsweng_notebooks%2FDesignPatterns.ipynb&branch=main)
 
 
 ## Zusätzliche Materialien und Ressourcen
