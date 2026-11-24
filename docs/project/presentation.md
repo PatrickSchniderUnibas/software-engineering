@@ -25,7 +25,7 @@ Die Präsentation sollte mindestens folgende Punkte ansprechen:
 #### Zeitplan
 Die Präsentationen finden am 1. Dezember statt. 
 
-Die Reihenfolge der Präsentationen finden Sie zu gegebenem Zeitpunkt in diesem Zeitplan auf [Adam](https://adam.unibas.ch/go/crs/2206923) 
+Die Reihenfolge der Präsentationen finden Sie zu gegebenem Zeitpunkt in diesem Zeitplan auf [Adam](https://adam.unibas.ch/go/file/2366005/download)
 
 #### Abgabe der Präsentationsfolien
 
